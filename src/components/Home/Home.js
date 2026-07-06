@@ -2,12 +2,6 @@ import React from "react";
 import "./home.css";
 import Typewriter from "typewriter-effect";
 import Fade from "react-reveal/Fade";
-import {
-  GiNightSky,
-  GiBoomerangSun,
-  GiField,
-  GiMountains,
-} from "react-icons/gi";
 
 const Home = ({ theme, handleChangeTheme }) => {
   return (
