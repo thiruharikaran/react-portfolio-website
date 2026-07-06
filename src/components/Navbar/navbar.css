@@ -1,0 +1,53 @@
+.navbar-main {
+  background: #0f172a;
+  width: 100%;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  top: 0;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  position: sticky;
+  z-index: 1000;
+  transition: 0.3s ease;
+}
+
+/* navbar scrool changed color */
+
+.navbar-logo img {
+  width: 170px;
+  height: auto;
+  cursor: pointer;
+}
+
+.navbar-scroll-color {
+  background-color: #38004c;
+}
+
+.navbar-main ul {
+  display: flex;
+  margin-right: 10%;
+}
+
+.navbar-main ul li {
+  list-style-type: none;
+  margin-right: 35px;
+  gap: 35px;
+  color: white;
+  cursor: pointer;
+  padding-top: 7px;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-main ul li:hover {
+  color: yellow;
+}
+.nav-item .active {
+  color: yellow;
+}
+@media (max-width: 1000px) {
+  .navbar-main {
+    display: none;
+  }
+}

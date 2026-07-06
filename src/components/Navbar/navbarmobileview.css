@@ -1,0 +1,48 @@
+.mobile-view-header {
+    width: 100%;
+    background-color: #cd5c5c;
+    color: black;
+    display: flex;
+    align-items: center;
+    
+    cursor: pointer;
+}
+
+.mobile-view-header p svg {
+    cursor: pointer;
+    color: white;
+    margin-top: 15px;
+}
+
+.responsive-mobile-view {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.mobile-nav {
+    height: auto;
+    width: 210px;
+    background-color: #cd5c5c;
+    margin-top: 10px;
+    top: 0;
+    z-index: 1;
+}
+
+.mobile-nav ul li {
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media (min-width:900px) {
+    .responsive-mobile-view {
+        display: none;
+    }
+}
+
+@media (max-width:890px) {
+    .mobile-nav {
+        display: flex;
+    }
+}
